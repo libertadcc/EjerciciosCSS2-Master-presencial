@@ -1,0 +1,8 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.primer{
+  border: 2px dotted pink;
+  font-style: italic;
+}

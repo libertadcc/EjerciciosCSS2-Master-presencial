@@ -1,0 +1,73 @@
+body {
+  background-color: lightgrey;
+  padding: 20px;
+}
+
+.links {
+  background-color: limegreen;
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  height: fit-content;
+}
+
+.main-content {
+  background-color: yellow;
+}
+
+.main-content h2 {
+  margin: 0;
+}
+
+.imagen-helecho {
+  display: none;
+}
+
+.info {
+  background-color: grey;
+}
+
+@media all and (min-width: 768px) {
+
+  #main-container {
+    display: flex;
+  }
+
+  .links {
+    min-width: 200px;
+  }
+
+  .content {
+    margin-left: 20px;
+  }
+  
+  .contenedor-helechos {
+    display: flex;
+    padding-bottom: 20px;
+  }
+
+  .helechos {
+    margin: 0;
+    padding: 20px 0;
+  }
+
+  .imagen-helecho {
+    display: block;
+    width: 350px;
+  }
+  
+  .info-title {
+    margin-top: 0;
+  }
+}
+
+
+@media all and (min-width: 1280px) {
+  .content {
+    display: flex;
+  }
+  .info {
+    margin-left: 20px;
+    height: fit-content;
+  }
+}

@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 0;
+  background-color: gray;
+  height: 80px;
+  align-items: center;
+  color: white;
+  margin: 0;
+}
+
+li:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.imagen  {
+  background-image: url("./dwigth.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+}
